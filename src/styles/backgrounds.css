@@ -1,0 +1,11 @@
+/* section backgrounds - images must be placed in /public */
+.bg-hero     { background: url("/hero-bg.jpg") center/cover no-repeat; background-size: cover; background-attachment: fixed; }
+.bg-about    { background: url("/about-bg.jpg") center/cover no-repeat; background-size: cover; }
+.bg-products { background: url("/products-bg.jpg") center/cover no-repeat; background-size: cover; }
+.bg-services { background: url("/services-bg.jpg") center/cover no-repeat; background-size: cover; }
+.bg-contact  { background: url("/contact-bg.jpg") center/cover no-repeat; background-size: cover; }
+
+/* product thumbnails placeholders */
+.thumb-1 { background: url("/product1.jpg") center/cover no-repeat; }
+.thumb-2 { background: url("/product2.jpg") center/cover no-repeat; }
+.thumb-3 { background: url("/product3.jpg") center/cover no-repeat; }
