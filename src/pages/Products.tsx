@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/backgrounds.css";
 import { CloudRain, Thermometer, Droplet, Map } from "lucide-react";
+import { Link } from "react-router-dom"; // ✅ add this import
 
 const products = [
   { icon: <CloudRain size={28} className="text-ocean"/>, title: "AquaFlood", subtitle: "Flood detection & alerts", desc: "Near-real-time flood mapping using Sentinel-1 SAR and automated processing." },
@@ -15,7 +16,9 @@ const Products: React.FC = () => {
       <div className="bg-black/40 w-full py-12">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-10">Our Products</h1>
-          <p className="text-center text-gray-200 max-w-3xl mx-auto mb-8">Each product is built to translate satellite data into practical tools for communities and decision-makers.</p>
+          <p className="text-center text-gray-200 max-w-3xl mx-auto mb-8">
+            Each product is built to translate satellite data into practical tools for communities and decision-makers.
+          </p>
 
           <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
             {products.map((p) => (
@@ -25,7 +28,10 @@ const Products: React.FC = () => {
                 <p className="text-sm text-gray-700 text-center">{p.subtitle}</p>
                 <p className="mt-3 text-sm text-gray-700">{p.desc}</p>
                 <div className="mt-4 text-right">
-                  <a href="/contact" className="text-ocean font-medium">Request demo</a>
+                  {/* ✅ use React Router navigation instead of <a href> */}
+                  <Link to="/contact" className="text-ocean font-medium">
+                    Request demo
+                  </Link>
                 </div>
               </div>
             ))}
