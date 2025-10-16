@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
           <h1 className="text-4xl font-bold text-center mb-6">Get in Touch</h1>
           <p className="text-center text-gray-200 mb-8">Reach out for demos, partnerships, or consulting.</p>
 
-          <form action="https://formspree.io/f/xdoqzljr" method="POST" className="bg-white/90 text-gray-800 p-8 rounded-2xl shadow-md space-y-6">
+          <form action="https://formspree.io/f/xpwykbyv" method="POST" className="bg-white/90 text-gray-800 p-8 rounded-2xl shadow-md space-y-6">
             <div>
               <label htmlFor="name" className="block mb-2 font-medium">Name</label>
               <input id="name" name="name" required className="w-full border rounded-lg p-3" />
