@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://kamauzi.github.io/terraverge",
+  "homepage": "https://terravergesolutions.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
