@@ -4,5 +4,5 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/terraverge/", // 👈 this must match your GitHub repo name exactly
+  base: "/", // 👈 this must match your GitHub repo name exactly
 });
