@@ -36,7 +36,7 @@ const AnimatedRoutes: React.FC = () => {
 const App: React.FC = () => {
   return (
     // 🟩 Added basename for GitHub Pages hosting
-    <Router basename="/terraverge">
+    <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
