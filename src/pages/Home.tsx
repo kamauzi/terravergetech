@@ -12,7 +12,7 @@ const Home: React.FC = () => {
           Building Geospatial Products for Coastal Resilience
         </h1>
         <p className="text-lg text-gray-100 max-w-3xl mx-auto">
-          TerraVerge develops data-driven products making satellite data useful
+          At TerraVerge Solutions we develop data-driven products making satellite data useful
           for communities and decision makers.
         </p>
 
