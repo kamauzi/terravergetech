@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-white/80 backdrop-blur-md shadow fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-bold text-ocean">TerraVerge</Link>
+        <Link to="/" className="text-2xl font-bold text-ocean">TerraVerge Solutions</Link>
 
         <div className="hidden md:flex space-x-8 font-medium">
           {navLinks.map((link) => (
